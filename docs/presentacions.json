@@ -1,0 +1,16 @@
+{
+  "presentations": [
+    {
+      "order": 0,
+      "title": "Introducció · Mòdul 0373 - Llenguatges de marques",
+      "src": "introduccio.md",
+      "description": "Introducció · Mòdul 0373 - Llenguatges de marques"
+    },
+    {
+      "order": 1,
+      "title": "001 Introducció Bases de Dades · Mòdul 0373 - Llenguatges de marques",
+      "src": "001_Introduccio_Bases_Dades.md",
+      "description": "Primers conceptes de BD: dades, informació, SGBD i operacions"
+    }
+  ]
+}
