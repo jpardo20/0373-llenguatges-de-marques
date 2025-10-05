@@ -4,7 +4,7 @@ site_url: https://jpardo20.github.io/0373-llenguatges-de-marques/
 
 nav:
   - Inici: index.md
-  - Presentacions: https://jpardo20.github.io/0373-llenguatges-de-marques/docs/
+  - Presentacions: presentacions.md
 
 theme:
   name: material
