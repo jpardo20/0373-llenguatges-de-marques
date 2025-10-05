@@ -5,6 +5,12 @@
       "title": "Introducció · Mòdul 0373 - Llenguatges de marques",
       "src": "introduccio.md",
       "description": "Introducció · Mòdul 0373 - Llenguatges de marques"
+    },
+        {
+      "order": 0,
+      "title": "Introducció XML · Mòdul 0373 - Llenguatges de marques",
+      "src": "002_Introduccio_XML.md",
+      "description": "Introducció XML · Mòdul 0373 - Llenguatges de marques"
     }
   ]
 }
