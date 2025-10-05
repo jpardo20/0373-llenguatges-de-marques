@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <title>DAM - 0373 · Introducció (reveal.js + Markdown)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@5/dist/reveal.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@5/dist/theme/black.css" id="theme">
+  <style>
+    :root { --brand: #35c0ff; }
+    .reveal h1, .reveal h2, .reveal h3 { letter-spacing:.3px; }
+    .reveal .brand { color: var(--brand); font-weight: 800; }
+    .tiny { font-size:.6em; opacity:.8 }
+    .badge { display:inline-block; padding:.25em .6em; border:1px solid #888; border-radius:999px; font-size:.7em; }
+    .box { border-left: 4px solid var(--brand); padding: .6em .8em; background:rgba(255,255,255,.04); }
+    .footer { position:absolute; bottom: 10px; left: 30px; font-size:.45em; opacity:.7; }
+  </style>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <!-- Load external Markdown file -->
+      <section data-markdown="DAM_0373_intro.md"
+               data-separator="^---$"
+               data-separator-vertical="^--$"
+               data-separator-notes="^Note:">
+      </section>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/reveal.js@5/dist/reveal.js"></script>
+  <script src="https://unpkg.com/reveal.js@5/plugin/markdown/markdown.js"></script>
+  <script>
+    Reveal.initialize({
+      hash: true,
+      slideNumber: true,
+      transition: 'fade',
+      plugins: [ RevealMarkdown ]
+    });
+  </script>
+</body>
+</html>

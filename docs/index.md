@@ -2,5 +2,5 @@
 
 En aquesta web publicaré els continguts del mòdul **0373 - Llenguatges de marques**.
 
-Ves a **Continguts** al menú per veure què hi ha publicat.
+Ves a **Presentacions** del menú per veure les que ja he publicat.
 
