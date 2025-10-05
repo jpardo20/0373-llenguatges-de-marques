@@ -43,13 +43,18 @@ Sessió 1 · **Introducció al llenguatge XML**
 
 ## Components d’un document XML
 
-| Component | Descripció | Exemple |
-|------------|-------------|---------|
-| **Element** | Un bloc d’informació | `<titol>1984</titol>` |
-| **Atribut** | Propietat dins d’una etiqueta | `<llibre idioma="català">` |
-| **Arrel** | Element que conté tots els altres | `<llibre>...</llibre>` |
-| **Comentari** | Text explicatiu | `<!-- Exemple -->` |
-| **Entitat** | Caràcter especial | `&lt; &gt; &amp;` |
+<table>
+  <thead>
+    <tr><th>Component</th><th>Descripció</th><th>Exemple</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Element</strong></td><td>Un bloc d’informació</td><td><code>&lt;titol&gt;1984&lt;/titol&gt;</code></td></tr>
+    <tr><td><strong>Atribut</strong></td><td>Propietat dins d’una etiqueta</td><td><code>&lt;llibre idioma="català"&gt;</code></td></tr>
+    <tr><td><strong>Arrel</strong></td><td>Element que conté tots els altres</td><td><code>&lt;llibre&gt;...&lt;/llibre&gt;</code></td></tr>
+    <tr><td><strong>Comentari</strong></td><td>Text explicatiu</td><td><code>&lt;!-- Exemple --&gt;</code></td></tr>
+    <tr><td><strong>Entitat</strong></td><td>Caràcter especial</td><td><code>&amp;lt; &amp;gt; &amp;amp;</code></td></tr>
+  </tbody>
+</table>
 
 ---
 
@@ -145,13 +150,42 @@ A més de ser ben format, segueix una estructura definida a una **DTD** o un **X
 
 ## Comparació XML vs JSON
 
-| Característica | XML | JSON |
-|----------------|-----|------|
-| Verbositat | Alta | Baixa |
-| Llegibilitat | Bona | Excel·lent |
-| Suport per atributs | Sí | No |
-| Validació formal | DTD / XSD | JSON Schema |
-| Ideal per a | Documents, dades estructurades | APIs, dades simples |
+<table>
+  <thead>
+    <tr>
+      <th>Característica</th>
+      <th>XML</th>
+      <th>JSON</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Verbositat</td>
+      <td>Alta</td>
+      <td>Baixa</td>
+    </tr>
+    <tr>
+      <td>Llegibilitat</td>
+      <td>Bona</td>
+      <td>Excel·lent</td>
+    </tr>
+    <tr>
+      <td>Suport per atributs</td>
+      <td>Sí</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Validació formal</td>
+      <td>DTD / XSD</td>
+      <td>JSON Schema</td>
+    </tr>
+    <tr>
+      <td>Ideal per a</td>
+      <td>Documents, dades estructurades</td>
+      <td>APIs, dades simples</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -191,8 +225,3 @@ Afegeix un atribut `idioma` a l’element principal.
 
 > L’XML és un llenguatge universal per descriure informació de manera estructurada i interoperable.
 
----
-
-## Fi de la sessió  
-**Preguntes?** 💬  
-<small>Tecles ← → · `Esc` vista global · Exporta a PDF</small>
