@@ -1,8 +1,7 @@
 # **XML**  
 ## eXtensible Markup Language  
-Sessió 1 · **Introducció al llenguatge XML**
 
-<small>Format: reveal.js + Markdown · CC BY-NC-SA</small>
+**Introducció al llenguatge XML**
 
 ---
 
@@ -35,8 +34,8 @@ Sessió 1 · **Introducció al llenguatge XML**
 </llibre>
 ```
 
-- `<?xml ... ?>` → declaració XML.  
-- `<llibre>` és l’**arrel** del document.  
+- <span class="codi">&lt;?xml ... ?></span> → declaració XML.  
+- <span class="codi">&lt;llibre></span> és l’**arrel** del document.  
 - Cada element té una **etiqueta d’obertura** i una **de tancament**.
 
 ---
@@ -48,11 +47,11 @@ Sessió 1 · **Introducció al llenguatge XML**
     <tr><th>Component</th><th>Descripció</th><th>Exemple</th></tr>
   </thead>
   <tbody>
-    <tr><td><strong>Element</strong></td><td>Un bloc d’informació</td><td><code>&lt;titol&gt;1984&lt;/titol&gt;</code></td></tr>
-    <tr><td><strong>Atribut</strong></td><td>Propietat dins d’una etiqueta</td><td><code>&lt;llibre idioma="català"&gt;</code></td></tr>
-    <tr><td><strong>Arrel</strong></td><td>Element que conté tots els altres</td><td><code>&lt;llibre&gt;...&lt;/llibre&gt;</code></td></tr>
-    <tr><td><strong>Comentari</strong></td><td>Text explicatiu</td><td><code>&lt;!-- Exemple --&gt;</code></td></tr>
-    <tr><td><strong>Entitat</strong></td><td>Caràcter especial</td><td><code>&amp;lt; &amp;gt; &amp;amp;</code></td></tr>
+    <tr><td><strong>Element</strong></td><td>Un bloc<br>d’informació</td><td><code class="codi petit">&lt;titol&gt;1984&lt;/titol&gt;</code></td></tr>
+    <tr><td><strong>Atribut</strong></td><td>Propietat dins<br>d’una etiqueta</td><td><code class="codi petit">&lt;llibre idioma="català"&gt;</code></td></tr>
+    <tr><td><strong>Arrel</strong></td><td>Element <br>conté la resta</td><td><code class="codi petit">&lt;llibre&gt;...&lt;/llibre&gt;</code></td></tr>
+    <tr><td><strong>Comentari</strong></td><td>Text explicatiu</td><td><code class="codi petit">&lt;!-- Exemple --&gt;</code></td></tr>
+    <tr><td><strong>Entitat</strong></td><td>Caràcter especial</td><td><code class="codi petit">&amp;lt; &amp;gt; &amp;amp;</code><br><span class="codi petit vermell">&lt;autor nom="Peix & marisc"></span><br><span class="codi petit">&lt;autor nom="Peix  &amp;amp; marisc"> </td></tr>
   </tbody>
 </table>
 
@@ -77,7 +76,7 @@ Sessió 1 · **Introducció al llenguatge XML**
 </llibre>
 ```
 
-❌ L’element `<autor>` no està tancat.  
+❌ L’element <span class="codi">&lt;autor></span> no està tancat.  
 ✅ Correcció:
 
 ```xml
@@ -97,7 +96,7 @@ Serveixen per **evitar conflictes** entre etiquetes de diferents vocabularis.
 </producte>
 ```
 
-- `xmlns:es` defineix un prefix per identificar el conjunt d’etiquetes.  
+- <span class="codi">xmlns:es</span> defineix un prefix per identificar el conjunt d’etiquetes.  
 - És essencial quan es combinen documents XML de fonts diferents.
 
 ---
